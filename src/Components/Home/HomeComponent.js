@@ -1,0 +1,58 @@
+/** @format */
+
+import React from "react";
+import "./Hero.css";
+import Categories from "./Categories";
+import Photosec from "./Photosect";
+import Timeline from "./Timeline";
+import Blogs from "./Blogs";
+import Brands from "./Brands";
+import Client from "./Client";
+import EndSection from "./EndSection";
+import Testimonials from "./Testimonials";
+import Footer from "../Footer/Footer";
+import Header from "../Header/index";
+
+const HomeComponent = () => {
+  return (
+    <>
+      <Header />
+      <div className="intro-banner">
+        <div className="container-fluid">
+          <div className="left">
+            <div className="content-container">
+              <h3>
+                <strong>Get Best Freelancers </strong>
+                <strong>At The Best Price</strong>
+                <span>India Ka Apna Freelancing Platform</span>
+              </h3>
+
+              <div className="projectcounter">
+                <ul class="intro-stats margin-top-45 hide-under-992px">
+                  <li>
+                    <div className="counter1"></div>
+                    <div className="plus">+</div>
+                    <span>Projects Completed</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="right"></div>
+        </div>
+      </div>
+      <Client />
+      <Categories />
+      <Photosec />
+      <Timeline />
+      <div>
+        <Blogs />
+      </div>
+      <Brands />
+      <Testimonials />
+      <EndSection />
+      <Footer />
+    </>
+  );
+};
+export default HomeComponent;
