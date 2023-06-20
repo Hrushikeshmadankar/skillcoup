@@ -1,7 +1,5 @@
 import logo from "../../assets/skillcoup_white.png";
-import classes from "./index.css";
 import "./index.css";
-import Buttons from "../Home/Buttons";
 import "../Home/Hero.css";
 
 const HeaderComponent = () => {
