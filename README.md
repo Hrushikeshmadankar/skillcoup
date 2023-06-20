@@ -1,4 +1,5 @@
 Skillcoup- Freelancing Platform
+
 **Description**
 Skillcoup is a freelancing platform designed to bridge the gap between skilled individuals and industry experts in India. The website provides a platform for freelancers to showcase their talents, connect with potential clients, and collaborate on projects. Skillcoup focuses on fostering a vibrant community of professionals, enabling them to share knowledge, learn from each other, and grow together.
 
